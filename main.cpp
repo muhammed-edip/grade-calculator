@@ -3,51 +3,51 @@ using namespace std;
 
 int main()
 {
-   int x=0;
+   int score=0;
    
   cout<<"enter your score\n";
-  cin>>x;
+  cin>>score;
  
- if(x>=85)
+ if(score>=85)
  {
-    if(x==100)
+    if(score==100)
     {
         cout<<"your gradis AA";
     }
-    else if(x>=85 && x<=99)
+    else if(score>=85 && score<=99)
     {
         cout<<"your grade is AB \n";
     }
  }
- else if(x>=60)
+ else if(score>=60)
  {
-    if(x==84)
+    if(score==84)
     {
         cout<<("your grade is BB \n");
     }
-    else if(x>=60 && x<=83)
+    else if(score>=60 && score<=83)
     {
         cout<<("your grade is BC \n");
     }
 }
-else if(x>=50)
+else if(score>=50)
  {
-    if(x==59)
+    if(score==59)
     {
         cout<<("your grade is CC \n");
     }
-    else if(x>=50 && x<=58)
+    else if(score>=50 && score<=58)
     {
         cout<<("your grade is CB \n");
     }
  }
- else if(x>=40)
+ else if(score>=40)
  {
-    if(x==49)
+    if(score==49)
     {
         cout<<("your grade is DD \n");
     }
-    else if(x>=40 && x<=48)
+    else if(score>=40 && score<=48)
     {
         cout<<("your grade is FF \n");
     }
